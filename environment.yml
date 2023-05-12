@@ -1,0 +1,18 @@
+name: input_features
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.7.*
+  - jupyter
+  - sphinx=2.4.4
+  - pydata-sphinx-theme
+  - ghp-import
+  - matplotlib
+  - numpy
+  - scipy
+  - pip
+  - pip:
+    - jupyter-book
+    - porespy
+    - hdf5storage

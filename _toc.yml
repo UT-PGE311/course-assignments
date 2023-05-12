@@ -1,0 +1,30 @@
+# Table of contents
+# Learn more at https://jupyterbook.org/customize/toc.html
+
+format: jb-book
+root: intro
+
+parts: 
+- caption: Course Information
+  chapters:
+  - file: content/syllabus/instructor
+  - file: content/syllabus/syllabus
+
+- caption: Homework Problems
+  chapters:
+  - file: content/lecture_1/problems
+  - file: content/lecture_2/problems
+  - file: content/lecture_3/problems
+  - file: content/lecture_4/problems
+  - file: content/lecture_5/problems
+  - file: content/lecture_6/problems
+  - file: content/lecture_7/problems
+  - file: content/lecture_8/problems
+
+- caption: Project Problems
+  chapters:
+  - file: content/projects/problems
+
+- caption: Past Exams
+  chapters:
+  - file: content/exams/f19
