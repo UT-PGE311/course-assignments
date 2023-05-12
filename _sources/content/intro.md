@@ -1,8 +1,13 @@
-# Thank you for viewing my poster!
+# PGE311: Numerical Methods and Programming
 
-This page was created to give a some more context about the input features we are testing.
+Welcome to PGE311: Numerical Methods and Programming. Although most course material will be distributed through Canvas/Github classroom, 
+we have curated some example problems from past courses to aid your learning.
 
-Please refer to the following sections for brief explanations and code snippets of how they were implemented.
+```{important}
+This book is a work in progress. Please bear with us as we convert all of the old material to this site. 
+```
+
+Please refer to the following sections:
 
 ```{tableofcontents}
 ```
