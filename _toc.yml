@@ -13,7 +13,28 @@ parts:
 - caption: Homework Problems
   chapters:
   - file: content/lecture_1/problems
+    sections:
+      - file: content/lecture_1/p1
+      - file: content/lecture_1/p2
+      - file: content/lecture_1/p3
+      - file: content/lecture_1/p4
+
   - file: content/lecture_2/problems
+    sections:
+      - file: content/lecture_2/p1
+      - file: content/lecture_2/p2
+      - file: content/lecture_2/p3
+      - file: content/lecture_2/p4
+      - file: content/lecture_2/p5
+      - file: content/lecture_2/p6
+      - file: content/lecture_2/p7
+      - file: content/lecture_2/p8
+      - file: content/lecture_2/p9
+      - file: content/lecture_2/p10
+      - file: content/lecture_2/p11
+      - file: content/lecture_2/p12
+      - file: content/lecture_2/p13
+
   - file: content/lecture_3/problems
   - file: content/lecture_4/problems
   - file: content/lecture_5/problems
