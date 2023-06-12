@@ -412,12 +412,12 @@ document.write(`
 <h1>Problem 3.4.4<a class="headerlink" href="#problem-3-4-4" title="Permalink to this heading">#</a></h1>
 <p>The “divide and average” method, an old-time method for approximating the square root of any positive number <span class="math notranslate nohighlight">\(a\)</span>, can be formulated as</p>
 <div class="math notranslate nohighlight">
-\[xnew = \frac{xold + a/xold}{2}\]</div>
+\[x_{new} = \frac{x_{old} + a/x_{old}}{2}\]</div>
 <p>Implement this algorithm with while…break loop in Python.</p>
 <p>This formula means we need to initialize <code class="docutils literal notranslate"><span class="pre">x</span></code> with a value.
 After that, at every step, we create a new value of <code class="docutils literal notranslate"><span class="pre">x</span></code> which is called <code class="docutils literal notranslate"><span class="pre">x_new</span></code> with the expression on the right hand side.</p>
 <p>At each step estimate the error in your approximation as
-$\epsilon = ||\frac{x_{new} −x_{old}}{x_{new}}||</p>
+<span class="math notranslate nohighlight">\(\epsilon = ||\frac{x_{new} −x_{old}}{x_{new}}||\)</span></p>
 <p>Repeat the loop until <span class="math notranslate nohighlight">\(\epsilon\)</span> is less than or equal to a specified value (you pick).
 Design your program (function) so that it returns both the result and the error.</p>
 <p>Make sure that it can evaluate the square root of numbers that are equal to and less than zero. For the latter case, display the result as an imaginary number.
