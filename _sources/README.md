@@ -12,7 +12,7 @@ Welcome to the Numerical Methods and Programming course at The University of Tex
 7. Curve Fitting
 8. Ordinary Differential Equations (ODEs)
 
-Please follow the URL below to access the full book:
+Please follow the link below to access the full book:
 
-https://UT-PGE311.github.io/course-assignments
+[![Jupyter Book Badge](https://github.com/executablebooks/jupyter-book/blob/master/docs/images/badge.svg)](https://UT-PGE311.github.io/course-assignments)   
 

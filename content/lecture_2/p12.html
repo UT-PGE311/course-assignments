@@ -3,11 +3,11 @@
 <!DOCTYPE html>
 
 
-<html >
+<html lang="en" >
 
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
 
     <title>Problem 2.12 &#8212; PGE311 Course Assignments</title>
   
@@ -44,6 +44,7 @@
     <script data-url_root="../../" id="documentation_options" src="../../_static/documentation_options.js"></script>
     <script src="../../_static/jquery.js"></script>
     <script src="../../_static/underscore.js"></script>
+    <script src="../../_static/_sphinx_javascript_frameworks_compat.js"></script>
     <script src="../../_static/doctools.js"></script>
     <script src="../../_static/clipboard.min.js"></script>
     <script src="../../_static/copybutton.js"></script>
@@ -60,15 +61,15 @@ const thebe_selector_input = "pre"
 const thebe_selector_output = ".output, .cell_output"
 </script>
     <script async="async" src="../../_static/sphinx-thebe.js"></script>
-    <script async="async" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
     <script>window.MathJax = {"options": {"processHtmlClass": "tex2jax_process|mathjax_process|math|output_area"}}</script>
+    <script defer="defer" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
     <script>DOCUMENTATION_OPTIONS.pagename = 'content/lecture_2/p12';</script>
     <link rel="index" title="Index" href="../../genindex.html" />
     <link rel="search" title="Search" href="../../search.html" />
     <link rel="next" title="Problem 2.13" href="p13.html" />
     <link rel="prev" title="Problem 2.11" href="p11.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
-  <meta name="docsearch:language" content="None"/>
+  <meta name="docsearch:language" content="en"/>
   </head>
   
   
@@ -182,7 +183,10 @@ const thebe_selector_output = ".output, .cell_output"
 <li class="toctree-l2"><a class="reference internal" href="p13.html">Problem 2.13</a></li>
 </ul>
 </li>
-<li class="toctree-l1"><a class="reference internal" href="../lecture_3/problems.html">Lecture 3 Problems</a></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../lecture_3/problems.html">Lecture 3 Problems</a><input class="toctree-checkbox" id="toctree-checkbox-3" name="toctree-checkbox-3" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-3"><i class="fa-solid fa-chevron-down"></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="../lecture_3/p1.html">Problem 3.1</a></li>
+</ul>
+</li>
 <li class="toctree-l1"><a class="reference internal" href="../lecture_4/problems.html">Lecture 4 Problems</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../lecture_5/problems.html">Lecture 5 Problems</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../lecture_6/problems.html">Lecture 6 Problems</a></li>
@@ -412,10 +416,10 @@ document.write(`
                 <article class="bd-article" role="main">
                   
   <section class="tex2jax_ignore mathjax_ignore" id="problem-2-12">
-<h1>Problem 2.12<a class="headerlink" href="#problem-2-12" title="Permalink to this headline">#</a></h1>
+<h1>Problem 2.12<a class="headerlink" href="#problem-2-12" title="Permalink to this heading">#</a></h1>
 <p>Indexing is used to obtain individual elements from an array, but it can also be used to obtain entire rows, columns or planes from multi-dimensional arrays.</p>
 <section id="indexing-in-1-dimension">
-<h2>2.1 Indexing in 1 dimension<a class="headerlink" href="#indexing-in-1-dimension" title="Permalink to this headline">#</a></h2>
+<h2>2.1 Indexing in 1 dimension<a class="headerlink" href="#indexing-in-1-dimension" title="Permalink to this heading">#</a></h2>
 <p>We can create 1 dimensional numpy array from a list like this:</p>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
@@ -431,7 +435,7 @@ document.write(`
 <p>In the following cell, please show the element in <span class="math notranslate nohighlight">\(A\)</span> whose index is 0.</p>
 </section>
 <section id="indexing-in-2-dimensions">
-<h2>2.2 Indexing in 2 dimensions<a class="headerlink" href="#indexing-in-2-dimensions" title="Permalink to this headline">#</a></h2>
+<h2>2.2 Indexing in 2 dimensions<a class="headerlink" href="#indexing-in-2-dimensions" title="Permalink to this heading">#</a></h2>
 <p>We can create a 2 dimensional numpy array from a Python list of lists, like this:</p>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
@@ -445,13 +449,13 @@ document.write(`
 <p>Here is a diagram of the array:</p>
 <p><img alt="2d_array" src="../../_images/2d_array.png" /></p>
 <section id="picking-an-element">
-<h3>Picking an element<a class="headerlink" href="#picking-an-element" title="Permalink to this headline">#</a></h3>
+<h3>Picking an element<a class="headerlink" href="#picking-an-element" title="Permalink to this heading">#</a></h3>
 <p>We can index an element of the array using two indices. Please show the element in <span class="math notranslate nohighlight">\(M\)</span> with row index i=1 and column index j=2.</p>
 <p>That is quite similar to what would happen with a 2D list. However, numpy allows us to select a single column as well. Please show the column in <span class="math notranslate nohighlight">\(M\)</span> with column index 2.</p>
 </section>
 </section>
 <section id="indexing-in-3-dimensions">
-<h2>2.3 Indexing in 3 dimensions<a class="headerlink" href="#indexing-in-3-dimensions" title="Permalink to this headline">#</a></h2>
+<h2>2.3 Indexing in 3 dimensions<a class="headerlink" href="#indexing-in-3-dimensions" title="Permalink to this heading">#</a></h2>
 <p>We can create a 3 dimensional numpy array from a Python list of lists of lists, like this:</p>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
@@ -477,7 +481,7 @@ document.write(`
 <p>Please show the element in <span class="math notranslate nohighlight">\(T\)</span> with the index [2,0,1] (layer index i = 2, row index j = 0, and column index k = 1) in <span class="math notranslate nohighlight">\(T\)</span>.</p>
 <p>This selects matrix index 2 (the final matrix), row 0, column 1, giving a value 31.</p>
 <section id="picking-a-row-or-column-in-a-3d-array">
-<h3>Picking a row or column in a 3D array<a class="headerlink" href="#picking-a-row-or-column-in-a-3d-array" title="Permalink to this headline">#</a></h3>
+<h3>Picking a row or column in a 3D array<a class="headerlink" href="#picking-a-row-or-column-in-a-3d-array" title="Permalink to this heading">#</a></h3>
 <p>You can access any row or column in a 3D array. There are 3 cases.</p>
 <p><strong>Case 1</strong> - specifying the first two indices. In this case, you are choosing the i value (the matrix), and the j value (the row). This will select a specific row. Please select row 2 from matrix 1:</p>
 <p><img alt="3d_array_row" src="../../_images/3d_array_row.png" /></p>
@@ -488,7 +492,7 @@ document.write(`
 <p><img alt="3d_array_row_slice" src="../../_images/3d_array_row_slice.png" /></p>
 </section>
 <section id="picking-a-matrix-in-a-3d-array">
-<h3>Picking a matrix in a 3D array<a class="headerlink" href="#picking-a-matrix-in-a-3d-array" title="Permalink to this headline">#</a></h3>
+<h3>Picking a matrix in a 3D array<a class="headerlink" href="#picking-a-matrix-in-a-3d-array" title="Permalink to this heading">#</a></h3>
 <p>If we only specify the i index, numpy will return the corresponding matrix. We will call this <strong>case 1</strong>. Please show matrix 2 in <span class="math notranslate nohighlight">\(T\)</span>:</p>
 <p><img alt="3d_array_z" src="../../_images/3d_array_z.png" /></p>
 <p><strong>Case 2</strong> if we specify just the j value (using a full slice for the i values), we will obtain a matrix made from the selected row taken from each plane. Please take row 1 in <span class="math notranslate nohighlight">\(T\)</span>:</p>

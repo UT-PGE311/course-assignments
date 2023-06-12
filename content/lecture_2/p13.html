@@ -3,11 +3,11 @@
 <!DOCTYPE html>
 
 
-<html >
+<html lang="en" >
 
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
 
     <title>Problem 2.13 &#8212; PGE311 Course Assignments</title>
   
@@ -44,6 +44,7 @@
     <script data-url_root="../../" id="documentation_options" src="../../_static/documentation_options.js"></script>
     <script src="../../_static/jquery.js"></script>
     <script src="../../_static/underscore.js"></script>
+    <script src="../../_static/_sphinx_javascript_frameworks_compat.js"></script>
     <script src="../../_static/doctools.js"></script>
     <script src="../../_static/clipboard.min.js"></script>
     <script src="../../_static/copybutton.js"></script>
@@ -60,15 +61,15 @@ const thebe_selector_input = "pre"
 const thebe_selector_output = ".output, .cell_output"
 </script>
     <script async="async" src="../../_static/sphinx-thebe.js"></script>
-    <script async="async" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
     <script>window.MathJax = {"options": {"processHtmlClass": "tex2jax_process|mathjax_process|math|output_area"}}</script>
+    <script defer="defer" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
     <script>DOCUMENTATION_OPTIONS.pagename = 'content/lecture_2/p13';</script>
     <link rel="index" title="Index" href="../../genindex.html" />
     <link rel="search" title="Search" href="../../search.html" />
     <link rel="next" title="Lecture 3 Problems" href="../lecture_3/problems.html" />
     <link rel="prev" title="Problem 2.12" href="p12.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
-  <meta name="docsearch:language" content="None"/>
+  <meta name="docsearch:language" content="en"/>
   </head>
   
   
@@ -182,7 +183,10 @@ const thebe_selector_output = ".output, .cell_output"
 <li class="toctree-l2 current active"><a class="current reference internal" href="#">Problem 2.13</a></li>
 </ul>
 </li>
-<li class="toctree-l1"><a class="reference internal" href="../lecture_3/problems.html">Lecture 3 Problems</a></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../lecture_3/problems.html">Lecture 3 Problems</a><input class="toctree-checkbox" id="toctree-checkbox-3" name="toctree-checkbox-3" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-3"><i class="fa-solid fa-chevron-down"></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="../lecture_3/p1.html">Problem 3.1</a></li>
+</ul>
+</li>
 <li class="toctree-l1"><a class="reference internal" href="../lecture_4/problems.html">Lecture 4 Problems</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../lecture_5/problems.html">Lecture 5 Problems</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../lecture_6/problems.html">Lecture 6 Problems</a></li>
@@ -409,11 +413,11 @@ document.write(`
                 <article class="bd-article" role="main">
                   
   <section class="tex2jax_ignore mathjax_ignore" id="problem-2-13">
-<h1>Problem 2.13<a class="headerlink" href="#problem-2-13" title="Permalink to this headline">#</a></h1>
+<h1>Problem 2.13<a class="headerlink" href="#problem-2-13" title="Permalink to this heading">#</a></h1>
 <p>You can slice a numpy array is a similar way to slicing a list - except you can do it in more than one dimension.</p>
 <p>As with indexing, the array you get back when you index or slice a numpy array is a view of the original array. It is the same data, just accessed in a different order. This is different to lists, where a slice returns a completely new list.</p>
 <section id="slicing-lists-a-review">
-<h2>2.13.0 Slicing lists - a review<a class="headerlink" href="#slicing-lists-a-review" title="Permalink to this headline">#</a></h2>
+<h2>2.13.0 Slicing lists - a review<a class="headerlink" href="#slicing-lists-a-review" title="Permalink to this heading">#</a></h2>
 <p>No questions here. Just a quick recap on how slicing works with normal Python lists. Suppose we have a list:</p>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
@@ -457,7 +461,7 @@ document.write(`
 <p>The index returns an element of the array, the slice returns a list of one element.</p>
 </section>
 <section id="slicing-1d-numpy-arrays">
-<h2>2.13.1 Slicing 1D numpy arrays<a class="headerlink" href="#slicing-1d-numpy-arrays" title="Permalink to this headline">#</a></h2>
+<h2>2.13.1 Slicing 1D numpy arrays<a class="headerlink" href="#slicing-1d-numpy-arrays" title="Permalink to this heading">#</a></h2>
 <p>Slicing a 1D numpy array is almost exactly the same as slicing a list. Let’s first create a 1D array.</p>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
@@ -474,7 +478,7 @@ document.write(`
 </div>
 </section>
 <section id="slicing-a-2d-array">
-<h2>12.13.2 Slicing a 2D array<a class="headerlink" href="#slicing-a-2d-array" title="Permalink to this headline">#</a></h2>
+<h2>12.13.2 Slicing a 2D array<a class="headerlink" href="#slicing-a-2d-array" title="Permalink to this heading">#</a></h2>
 <p>You can slice a 2D array in both axes to obtain a rectangular subset of the original array.</p>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
@@ -490,7 +494,7 @@ document.write(`
 <p><img alt="2d_array_slice" src="../../_images/2d_array_slice.png" /></p>
 </section>
 <section id="slicing-a-3d-array">
-<h2>12.13.3 Slicing a 3D array<a class="headerlink" href="#slicing-a-3d-array" title="Permalink to this headline">#</a></h2>
+<h2>12.13.3 Slicing a 3D array<a class="headerlink" href="#slicing-a-3d-array" title="Permalink to this heading">#</a></h2>
 <p>You can slice a 3D array in all 3 axes to obtain a cuboid subset of the original array:</p>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
@@ -511,7 +515,7 @@ document.write(`
 <p><img alt="3d_array_slice_cube" src="../../_images/3d_array_slice_cube.png" /></p>
 </section>
 <section id="full-slices">
-<h2>12.13.4 Full slices<a class="headerlink" href="#full-slices" title="Permalink to this headline">#</a></h2>
+<h2>12.13.4 Full slices<a class="headerlink" href="#full-slices" title="Permalink to this heading">#</a></h2>
 <p>You can, of course, use full slices : to select all planes, columns or rows. However, for trailing indices, simply omitting the index counts as a full slice. So for 2D arrays:</p>
 <p><code class="docutils literal notranslate"><span class="pre">M[1:3,:]</span></code> is the same as <code class="docutils literal notranslate"><span class="pre">M[1:3]</span></code></p>
 <p>For 3D arrays:
@@ -520,7 +524,7 @@ document.write(`
 <p>Try it out yourself!</p>
 </section>
 <section id="slices-vs-indexing">
-<h2>12.13.5 Slices vs indexing<a class="headerlink" href="#slices-vs-indexing" title="Permalink to this headline">#</a></h2>
+<h2>12.13.5 Slices vs indexing<a class="headerlink" href="#slices-vs-indexing" title="Permalink to this heading">#</a></h2>
 <p>No questions here.</p>
 <p>You can use an index to select a particular plane column or row. Here we select row 1, columns 2:4</p>
 <div class="cell docutils container">
@@ -546,7 +550,7 @@ document.write(`
 <p>Notice the subtle difference. The first creates a 1D array, the second creates a 2D array with only one row.</p>
 </section>
 <section id="plotting">
-<h2>12.13.6 Plotting<a class="headerlink" href="#plotting" title="Permalink to this headline">#</a></h2>
+<h2>12.13.6 Plotting<a class="headerlink" href="#plotting" title="Permalink to this heading">#</a></h2>
 <p>Let’s graphically show numbers in each plane for the 3-D array <span class="math notranslate nohighlight">\(T\)</span>. Use subplots to separately plot each plane (0,1,2) of array <span class="math notranslate nohighlight">\(T\)</span>. You can use function <code class="docutils literal notranslate"><span class="pre">imshow()</span></code> from <code class="docutils literal notranslate"><span class="pre">matplotlib.pyplot</span></code> and make sure to add colorbar as well as title to each subplot (plane 0, plane 1, plane 2). Pick a colormap of choice from <a class="reference external" href="https://matplotlib.org/tutorials/colors/colormaps.html">https://matplotlib.org/tutorials/colors/colormaps.html</a></p>
 </section>
 </section>
